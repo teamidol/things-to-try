@@ -1,0 +1,50 @@
+<script>
+alert("Are you ready?!");
+</script>
+
+
+             <script>
+                let userInput = prompt("Type 'paper' or 'rock' or 'scissor'");
+                console.log(userInput);
+                if (userInput == "paper"){
+                    alert("im scissor");
+                } else if (userInput == "rock"){
+                    alert("im paper");
+                } else if (userInput == "scissor"){
+                    alert("im rock");
+                } else {alert("Type 'paper' or 'rock' or 'scissor'");}
+             </script>
+
+//.................v( working loop )v
+
+confirm("Are you ready? If so, click ok.");
+
+// let userInput = prompt("Type 'paper' or 'rock' or 'scissor'");
+// console.log(userInput);
+// userInput = userInput.toLowerCase();
+
+// //(function, start)
+// function interactiveGame(userInput) {
+
+//     let gotIt = false;
+//     while (!gotIt) {
+
+//         if (userInput == "paper") {
+//             alert("im scissor");
+//             gotIt = true
+//         } else if (userInput == "rock") {
+//             alert("im paper");
+//             gotIt = true
+//         } else if (userInput == "scissor") {
+//             alert("im rock");
+//             gotIt = true
+//         } else {
+//             userInput = prompt("Type 'paper' or 'rock' or 'scissor'")
+        
+//         }
+
+//     }
+// }
+// interactiveGame(userInput)
+
+//..................^( working loop )^
