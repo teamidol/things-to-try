@@ -12,15 +12,15 @@ function interactiveGame(userInput) {
 
         if (userInput == "paper") {
             alert("im scissor");
-            document.write("My scissor cut your paper.");
+            document.write("Your paper got cut by my scissor.");
             gotIt = true
         } else if (userInput == "rock") {
             alert("im paper");
-            document.write("My paper wrapped your rock.");
+            document.write("Your rock got wrapped with my paper.");
             gotIt = true
         } else if (userInput == "scissor") {
             alert("im rock");
-            document.write("Your scissor broke trying to cut my rock.")
+            document.write("Your scissor broke trying to cut my rock.");
             gotIt = true
         } else {
             userInput = prompt("Type 'paper' or 'rock' or 'scissor'")
