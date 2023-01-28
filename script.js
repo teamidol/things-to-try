@@ -11,15 +11,15 @@ function interactiveGame(userInput) {
     while (!gotIt) {
 
         if (userInput == "paper") {
-            alert("im scissor");
+            alert("im scissor")
             document.write("Your paper got cut by my scissor.");
             gotIt = true
         } else if (userInput == "rock") {
-            alert("im paper");
+            alert("im paper")
             document.write("Your rock got wrapped with my paper.");
             gotIt = true
         } else if (userInput == "scissor") {
-            alert("im rock");
+            alert("im rock")
             document.write("Your scissor broke trying to cut my rock.");
             gotIt = true
         } else {
