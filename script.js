@@ -35,6 +35,7 @@ let userPick = prompt("Pick a number between 1 and 5 (images to show)");
 console.log(userPick);
 userPick = parseInt(userPick)
 for (let i = 0; i < userPick; i += 1){
-    document.write(" " + " " + "But there goes your" + userPick)
-    document.write('<img src="thumb wrestling sml.png"/>');
+    
+    document.write('<img src="thumb wrestling sml.png"/>')
+    document.write(i - userPick + userPick + 1);
 }
