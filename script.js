@@ -39,14 +39,15 @@ interactiveGame(userInput)
 // console.log(userPick);
 
 // function pickNumber(userPick){
-//     document.write<img src= "thumb wrestling.png"></img>}
+    
 
 
 //     let gotIt = false;
 //     while (!gotIt) {
 
 //         if (userPick == 1) {
-//             document.write (img src= "thumb wrestling.png");
+//             document.write (img src= "thumb wrestling.png")
+//             document.write (img src="thumb wrestling.png");
 //             gotIt = true
 //         } else if (userInput == "rock") {
 //             alert("im paper");
@@ -61,6 +62,6 @@ interactiveGame(userInput)
 
 //     }
 // }
-// interactiveGame(userInput)
+// pickNumber(userPick)
 
 //^^^^^^^^^^^^^^^^^^ ( lab08 ) ^^^^^^^^^^^^^^^^^^^^^
